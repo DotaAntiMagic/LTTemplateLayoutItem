@@ -5,8 +5,6 @@ UICollectionView Automatic Layout Framework
 *   UICollectionView高度宽度自适应
 *   分栏布局
 
-![图1-1](http://upload-images.jianshu.io/upload_images/1231308-39322939363be3a4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 #使用过程：
 
 ** 1.使用XIB需要将该Cell的ReuseIdentifier注册到UICollectionView，可以使用registerClass或registerNib **
