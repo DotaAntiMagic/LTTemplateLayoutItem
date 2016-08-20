@@ -7,15 +7,15 @@ UICollectionView Automatic Layout Framework
 
 #使用过程：
 
-** 1.使用XIB需要将该Cell的ReuseIdentifier注册到UICollectionView，可以使用registerClass或registerNib **
+**1.使用XIB需要将该Cell的ReuseIdentifier注册到UICollectionView，可以使用registerClass或registerNib**
 
 	 [self.collectionView registerClass:[WallterCollectionViewCell class] forCellWithReuseIdentifier:@"WallterCollectionViewCell"];
 
-** 2.使用XIB用到UICollectionViewLayout自定义布局时，需要设置XIB如图1.2所示 ** 
+**2.使用XIB用到UICollectionViewLayout自定义布局时，需要设置XIB如图1.2所示** 
 
 ![图1-2](http://upload-images.jianshu.io/upload_images/1231308-39322939363be3a4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-** 3.宽度自适应使用实现LTCollectionViewDynamicHeightCellLayout代理方法传入对应列数即可 ** 
+**3.宽度自适应使用实现LTCollectionViewDynamicHeightCellLayout代理方法传入对应列数即可** 
 
 	@protocol LTCollectionViewDynamicHeightCellLayoutDelegate <NSObject>
 
@@ -50,7 +50,7 @@ UICollectionView Automatic Layout Framework
 ![演示图](http://upload-images.jianshu.io/upload_images/1231308-e70471750e0a7b66.gif?imageMogr2/auto-orient/strip)
 
 #使用介绍
-**1.单栏布局自适应高度（不使用UICollectionViewLayout）**
+**1.单栏布局自适应高度（不使用UICollectionViewLayout**
 
 主要代码：
 
@@ -61,7 +61,7 @@ UICollectionView Automatic Layout Framework
 	    return cell;
 	}
 
-**2.多栏布局自适应高度（实现LTCollectionViewDynamicHeightCellLayout代理方法） **
+**2.多栏布局自适应高度（实现LTCollectionViewDynamicHeightCellLayout代理方法)**
 
 主要代码
 
@@ -112,5 +112,5 @@ UICollectionView Automatic Layout Framework
 
 #感谢：
 
-[sunnyxx](https://github.com/forkingdog)
+[sunnyxx](https://github.com/forkingdog) <br/>
 [青玉伏案](https://github.com/lizelu)
