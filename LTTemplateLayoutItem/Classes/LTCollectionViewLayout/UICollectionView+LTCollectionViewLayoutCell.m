@@ -13,7 +13,8 @@
 
 - (CGFloat)lt_systemFittingHeightForConfiguratedCell:(UICollectionViewCell *)cell {
     
-    CGFloat contentViewWidth = CGRectGetWidth(self.frame);
+//    CGFloat contentViewWidth = CGRectGetWidth(self.frame);
+    CGFloat contentViewWidth = CGRectGetWidth(cell.contentView.frame);
     CGFloat fittingHeight = 0;
     if (!cell.lt_enforceFrameLayout && contentViewWidth > 0) {
         
